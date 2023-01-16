@@ -1,0 +1,28 @@
+name: sms_demo
+description: SMS demo show case for ABGA
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: 3.0.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^7.2.0
+  provider: ^6.0.5
+  permission_handler: ^10.2.0
+  flutter_sms_inbox: ^1.0.1
+  grouped_list: ^5.1.2
+  sticky_grouped_list: ^3.1.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
